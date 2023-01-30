@@ -1,9 +1,10 @@
 const request = require('request');
 const cheerio = require('cheerio');
+const d = new Date();
 
 console.log("Updating data...")
 console.log("...")
-console.log("Worldwide Coronavirus data for " + Date);
+console.log("Worldwide Coronavirus data for " + d);
 
 // requesting the covid-19 website
 request("https://www.worldometers.info/coronavirus/", cb);
